@@ -58,5 +58,14 @@ $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 PRODUCT_PACKAGES += \
     RemovePackages
 
+
+#Refresh rate  overlay settings 
+PRODUCT_PACKAGES += \
+    SettingsOverlayRefreshRate
+
+
+# Inherit from sm8250-common
+$(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
