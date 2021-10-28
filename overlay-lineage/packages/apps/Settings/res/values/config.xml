@@ -12,11 +12,10 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Whether to show Minimum and Maximum refresh rate in display settings -->
-    <bool name="config_show_refresh_rate_controls">true</bool>
+    <!-- Whether to show Smooth Display feature in Settings Options -->
+    <bool name="config_show_smooth_display">true</bool>
 
     <!-- Maintainer info -->
      <string name="config_maintainer_name" translatable="false">VENØM98</string>
     <string name="config_maintainer_link"  translatable="false">https://github.com/VEN0M98</string>
-
 </resources>
