@@ -51,8 +51,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Gcam
 $(call inherit-product-if-exists, vendor/GcamBSG/GcamBSG-vendor.mk)
 
-# Lawnchair Launcher
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
