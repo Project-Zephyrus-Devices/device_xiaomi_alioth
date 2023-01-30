@@ -46,7 +46,10 @@ PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage \
-    $(LOCAL_PATH)/AliothNFCOverlay
+    $(LOCAL_PATH)/AliothNFCOverlay \
+    $(LOCAL_PATH)/Mi11XOverlay \
+    $(LOCAL_PATH)/POCOF3Overlay \
+    $(LOCAL_PATH)/RedmiK40Overlay
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
