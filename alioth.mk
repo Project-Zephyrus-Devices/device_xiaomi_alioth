@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 PRODUCT_BOARD_PLATFORM := kona
 PRODUCT_USES_QCOM_HARDWARE := true
 
+CUSTOM_BUILD_TYPE := Official
 SHIP_APERTURE := true
 WITH_GMS := true
 TARGET_SUPPORTS_QUICK_TAP := true
