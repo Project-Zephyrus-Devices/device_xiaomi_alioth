@@ -507,4 +507,7 @@
 
      <!-- Whether device supports increased touch sensitvity -->
     <bool name="config_supportGloveMode">true</bool>
+
+    <!-- Whether device supports in-display fingerprint -->
+    <bool name="config_supportsUdfps">false</bool>
 </resources>
