@@ -11,18 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-# Platform
-PRODUCT_BOARD_PLATFORM := kona
-PRODUCT_USES_QCOM_HARDWARE := true
-
 CUSTOM_BUILD_TYPE := Official
 SHIP_APERTURE := true
 WITH_GMS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
 USE_PIXEL_CHARGER_IMAGES := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME :=alioth
 PRODUCT_DEVICE := alioth
