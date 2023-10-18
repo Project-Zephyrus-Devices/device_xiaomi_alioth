@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 CUSTOM_BUILD_TYPE := Official
 SHIP_APERTURE := true
+GMS_FULL := true
 WITH_GMS := true
 USE_PIXEL_CHARGER_IMAGES := true
 
